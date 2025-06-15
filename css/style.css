@@ -2,8 +2,8 @@
 /********* General CSS *********/
 /*******************************/
 body {
-    color: #797979;
-    background: linear-gradient(to bottom , #d4d4d4,#ffffff);
+    color: #000000;
+    background: #000000;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -248,7 +248,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-     background-color : #d4d4d4 ;
+     background-color : #000000 ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
