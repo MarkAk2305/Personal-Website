@@ -429,7 +429,7 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background: #ffffff;
+    background: #000000;
 }
 
 .section-header p::before {
