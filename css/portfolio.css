@@ -1,6 +1,7 @@
 :root {
-    --page-bg: #101114;
-    --surface: #191a1f;
+    --page-bg: #071426;
+    --surface: #10243b;
+    --section-bg: #0b1b30;
     --text: #f4f4f1;
     --muted: #a5a6ad;
     --accent: #c5f36b;
@@ -74,7 +75,7 @@ h6 {
     align-items: center;
     overflow: hidden;
     padding: 140px 0 100px;
-    background: radial-gradient(ellipse at 83% 40%, rgba(197, 243, 107, .09), transparent 30%), var(--page-bg);
+    background: radial-gradient(ellipse at 83% 40%, rgba(64, 133, 211, .2), transparent 34%), var(--page-bg);
 }
 
 .eyebrow {
@@ -148,7 +149,7 @@ h6 {
     justify-content: center;
     border: 1px solid rgba(255, 255, 255, .1);
     border-radius: 48% 48% 12px 12px;
-    background: linear-gradient(160deg, rgba(197, 243, 107, .14), rgba(255, 255, 255, .015) 65%);
+    background: linear-gradient(160deg, rgba(64, 133, 211, .2), rgba(255, 255, 255, .015) 65%);
 }
 
 .hero-portrait img {
@@ -183,7 +184,7 @@ h6 {
 .about-section {
     border-top: 1px solid rgba(255, 255, 255, .08);
     border-bottom: 1px solid rgba(255, 255, 255, .08);
-    background: #141519;
+    background: var(--section-bg);
 }
 
 .portfolio-section h2,
@@ -242,7 +243,7 @@ h6 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(circle at 50% 45%, rgba(197, 243, 107, .16), transparent 38%), #131419;
+    background: radial-gradient(circle at 50% 45%, rgba(64, 133, 211, .22), transparent 42%), #09172a;
 }
 
 .project-monogram {
@@ -297,7 +298,7 @@ h6 {
 
 .contact-section {
     text-align: center;
-    background: #141519;
+    background: var(--section-bg);
 }
 
 .contact-section h2 {
